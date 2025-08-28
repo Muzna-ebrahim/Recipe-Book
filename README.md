@@ -66,5 +66,9 @@ This project is licensed under the MIT License.
 ## CONTRIBUTIONS
 All contributions are allowed and appreciated.
 
+## ACKNOWLEDGEMENTS
+Inspired by the need for a simple recipe book management system.
+
+
 ## Author
 This project was done by Muzna Ebrahim Mohamed.
