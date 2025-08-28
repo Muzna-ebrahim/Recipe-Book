@@ -4,11 +4,11 @@ A command-line interface application for managing your personal recipe collectio
 
 ## Features
 
-- **Category Management**: Create and manage recipe categories (Appetizers, Main Courses, Desserts, etc.)
-- **Recipe Management**: Add new recipes with detailed instructions and cooking times
-- **Ingredient Tracking**: Associate ingredients with quantities and units to each recipe
-- **Search Functionality**: Find recipes by title or ingredient name
-- **Organized Viewing**: Browse recipes by category
+1. Category Management**: Create and manage recipe categories (Appetizers, Main Courses, Desserts, etc.)
+2. Recipe Management**: Add new recipes with detailed instructions and cooking times
+3. Ingredient Tracking**: Associate ingredients with quantities and units to each recipe
+4. Search Functionality**: Find recipes by title or ingredient name
+5. Organized Viewing**: Browse recipes by category
 
 ## Installation
 
