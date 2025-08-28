@@ -34,23 +34,37 @@ Run application python lib/cli.py
 11. List recipes by category - Browse recipes organized by category
 
 ## PROJECT STRUCTURE
-recipe_book/
+Recipe-Book/
 ├── Pipfile                 
+├── Pipfile.lock           
 ├── README.md              
-├── migrations/           
-└── lib/                   
-    ├── __init__.py      
+├── alembic.ini            
+├── migrations               
+│   ├── env.py            
+│   ├── script.py.mako    
+│   └── versions        
+└── lib/ 
+
     ├── cli.py           
-    ├── helpers.py         
     ├── debug.py           
+    ├── helpers.py         
+    ├── recipe_book.db     
     └── models/           
         ├── __init__.py    
         ├── recipe.py      
         ├── ingredient.py  
         └── category.py    
 
+## MODELS
+  1. Recipe Represents a recipe with title, instructions, and cooking time
+  2. Ingredient Represents an ingredient with quantity and unit
+  3. Category Represents a category for organizing recipes (e.g., "Desserts", "Main Courses")
+
 ## License
 This project is licensed under the MIT License.
+
+## CONTRIBUTIONS
+All contributions are allowed and appreciated.
 
 ## Author
 This project was done by Muzna Ebrahim Mohamed.
