@@ -33,6 +33,21 @@ Run application python lib/cli.py
 10. Search recipes - Find recipes by title or ingredient name
 11. List recipes by category - Browse recipes organized by category
 
+## PROJECT STRUCTURE
+recipe_book/
+├── Pipfile                 
+├── README.md              
+├── migrations/           
+└── lib/                   
+    ├── __init__.py      
+    ├── cli.py           
+    ├── helpers.py         
+    ├── debug.py           
+    └── models/           
+        ├── __init__.py    
+        ├── recipe.py      
+        ├── ingredient.py  
+        └── category.py    
 
 ## License
 This project is licensed under the MIT License.
